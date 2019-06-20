@@ -1,0 +1,93 @@
+*
+/* Main Menu
+--*/
+
+.menu-menu-wrapper{
+	width: 100%;
+	background-color: #59b210;
+	height: 50px;
+	font: 14px/18px 'OpenSansBold', sans-serif;
+}
+
+.main-menu > li:hover{
+	background-color: #000;
+}
+
+/*1 уровень*/
+.main-menu > li {
+	float: left;
+	position: relative;
+	list-style: none;
+	border-right: 1px solid #4d9b0e;
+}
+
+
+/*2 уровень*/
+
+.main-menu > li > ul {
+	position: absolute;
+	z-index: 10;
+
+}
+
+.main-menu > li > ul a{
+	text-decoration: none;
+	color: #000;
+}
+
+.main-menu > li > ul a:hover{
+	background-color: #ccc;
+}
+
+.main-menu > li > ul > li {
+	display: block;
+	list-style: none;
+}
+
+.main-menu > li > ul > li > a{
+	padding: 15px;
+	display: block;
+	list-style: none;
+	z-index: 10;
+	background-color: rgb(255, 255, 255);
+}
+.main menu > li >a {
+	line-height: 50px;
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	padding: 0 25px; 
+}
+
+.main-menu >li>ul {
+	display: none;
+}
+
+.main-menu >li:hover>ul {
+	display: block;
+}
+/*.main-menu {
+	width: 100%;
+	background-color: #59b210;
+	height: 50px;
+	font: 14px/18px 'OpenSansBold', sans-serif;
+}
+
+.main-menu ul li {
+	float: left;
+	border-right: 1 px solid #4d9b0e;
+	list-style: none;
+}
+
+.main-menu ul li:hover {
+	background-color: #54a90f;
+	cursor: pointer;
+}
+
+.main-menu ul>li>a {
+	line-height: 50px;
+	color: #696969;
+	text-decoration: none;
+	display: block;
+	padding: 0 25px;
+}*/
